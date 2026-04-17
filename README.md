@@ -73,9 +73,7 @@ master-ai/
 ├── masterclass-ia-marp.md    # Outline original en Marp
 ├── masterclass-ia-marp.pdf   # PDF del outline Marp
 ├── masterclass-ia-theme.css  # Theme de la presentación Marp
-├── AGENTS.md                 # Instrucciones para agentes IA
 ├── .gitignore                # Reglas de Git
-├── .env.example              # Template de variables de entorno
 ├── LICENSE                   # Licencia restrictiva
 └── README.md                 # Este archivo
 ```

@@ -36,8 +36,5 @@ yarn-error.log*
 # concepts
 concepts/
 
-# AI
-AGENTS.md
-
 # extra
 notas.md
