@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arquitectura tecnica de sistemas con IA</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="rail" aria-label="Indice tecnico">
+        <div class="rail-head">
+          <p class="eyebrow">MASTER AI</p>
+          <h1>Arquitectura tecnica de sistemas con IA</h1>
+          <p class="rail-copy">
+            Sintesis tecnica sobre modelos, contexto activo, skills, tools,
+            MCP, memoria, retrieval, agentes, workflows y apertura real.
+          </p>
+        </div>
+
+        <nav id="scene-index" class="scene-index"></nav>
+
+        <div class="rail-foot">
+          <p><span>Navegacion</span><strong>Left / Right / Home / End</strong></p>
+          <p><span>Modo</span><strong>Local, sin build</strong></p>
+          <p><span>Edicion</span><strong>Escenas en <code>app.js</code></strong></p>
+        </div>
+      </aside>
+
+      <main class="main-shell">
+        <header class="topbar">
+          <div>
+            <p id="current-block-label" class="eyebrow"></p>
+            <h2 id="current-scene-title"></h2>
+          </div>
+
+          <div class="topbar-stats">
+            <div class="stat-box">
+              <span>Escena</span>
+              <strong id="scene-counter"></strong>
+            </div>
+            <div class="stat-box">
+              <span>Bloque</span>
+              <strong id="block-counter"></strong>
+            </div>
+          </div>
+        </header>
+
+        <section class="progress-panel" aria-hidden="true">
+          <div class="progress-track">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+          <div id="step-progress" class="step-progress"></div>
+        </section>
+
+        <section id="scene-stage" class="scene-stage" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

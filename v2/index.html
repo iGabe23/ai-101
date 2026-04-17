@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA no es chat - V2</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail" aria-label="Indice narrativo">
+        <div class="rail-header">
+          <p class="rail-kicker">MASTER AI / V2</p>
+          <h1>Del chat al sistema cognitivo</h1>
+          <p class="rail-copy">
+            Cuando el problema crece, un LLM solo ya no alcanza.
+          </p>
+        </div>
+
+        <nav id="scene-index" class="rail-index"></nav>
+
+        <div class="rail-footer">
+          <p><span>Teclas</span> <strong>Left / Right / Home / End</strong></p>
+          <p><span>Modo</span> <strong>local, sin build</strong></p>
+        </div>
+      </aside>
+
+      <main class="main-stage">
+        <header class="topbar">
+          <div>
+            <p id="current-block-label" class="topbar-label"></p>
+            <h2 id="current-scene-title" class="topbar-title"></h2>
+          </div>
+
+          <div class="topbar-status">
+            <div class="status-pill">
+              <span>Escena</span>
+              <strong id="scene-counter"></strong>
+            </div>
+            <div class="status-pill">
+              <span>Bloque</span>
+              <strong id="block-counter"></strong>
+            </div>
+          </div>
+        </header>
+
+        <div class="progress-shell" aria-hidden="true">
+          <div class="progress-track">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+          <div id="step-progress" class="step-progress"></div>
+        </div>
+
+        <section id="scene-stage" class="scene-stage" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
