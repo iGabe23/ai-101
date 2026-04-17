@@ -14,7 +14,7 @@ La IA aplicada no se entiende bien si se mira solo el modelo o solo el chat. Se 
 - Mas claridad contractual: que hace cada pieza, que no hace y donde rompe.
 - Sin diccionario seco: cada bloque responde problema -> pieza -> relacion -> tradeoff.
 - Sin vendorismo: se priorizan categorias y decisiones, no marcas.
-- `concepts/` es la fuente de precision; `v3/` es la capa de sintesis pedagogica.
+- `concepts/` es la fuente de precision; `capitulo-2/` es la capa de sintesis pedagogica.
 
 ## Sincronizacion conceptual prioritaria
 

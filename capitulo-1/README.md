@@ -2,7 +2,7 @@
 
 ## Como abrirla
 
-- Abri `v2/index.html` directo en el navegador.
+- Abri `capitulo-1/index.html` directo en el navegador.
 - No necesita build, servidor ni framework.
 - Navegacion:
   - `ArrowRight` o `Space`: avanzar paso / escena
@@ -13,7 +13,7 @@
 
 ## Como editar las escenas
 
-- Todo el contenido vive en `v2/app.js`.
+- Todo el contenido vive en `capitulo-1/app.js`.
 - Busca el array `scenes` al inicio del archivo.
 - Cada escena define:
   - `module` y `moduleTitle`: bloque narrativo
@@ -24,9 +24,9 @@
 
 ## Estructura util
 
-- `v2/index.html`: shell de la presentacion
-- `v2/styles.css`: identidad visual, layout y responsive
-- `v2/app.js`: schema, render y navegacion
+- `capitulo-1/index.html`: shell de la presentacion
+- `capitulo-1/styles.css`: identidad visual, layout y responsive
+- `capitulo-1/app.js`: schema, render y navegacion
 
 ## Criterio de mantenimiento
 
