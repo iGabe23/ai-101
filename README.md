@@ -10,7 +10,13 @@ El material evolucionó a partir de una presentación inicial en Marp que sirvi�
 
 ## Capítulos
 
-Las presentaciones están organizadas en **dos capítulos secuenciales** que se complementan:
+Las presentaciones están organizadas en **tres capítulos secuenciales** que se complementan:
+
+| Carpeta | Capítulo | Título | Propósito |
+|---------|----------|--------|-----------|
+| `capitulo-0/` | Capítulo 0 | Outline original | Outline Marp usado como base para planificar la estructura antes de pasar al código |
+| `capitulo-1/` | Capítulo 1 | Del chat al sistema cognitivo | Introduce el problema |
+| `capitulo-2/` | Capítulo 2 | Arquitectura técnica de sistemas con IA | Explica las soluciones |
 
 | Carpeta | Capítulo | Título | Propósito |
 |---------|----------|--------|-----------|
@@ -20,6 +26,10 @@ Las presentaciones están organizadas en **dos capítulos secuenciales** que se 
 **Orden recomendado**: Ver primero el Capítulo 1 para entender el contexto del problema, luego el Capítulo 2 para las soluciones.
 
 ## Contenido por Capítulo
+
+### Capítulo 0: capitulo-0 — Outline original
+
+Outline Marp que sirvió como base para planificar la estructura narrativa antes de implementar las presentaciones en código vanilla JavaScript.
 
 ### Capítulo 1: capitulo-1 — Del chat al sistema cognitivo
 
@@ -39,7 +49,7 @@ Presentacion técnica que cubre los fundamentos de arquitectura:
 
 ## Origen
 
-Los archivos `masterclass-ia-marp.md`, `masterclass-ia-marp.pdf` y `masterclass-ia-theme.css` corresponden a la presentación Marp original que se usó como outline para planificar la estructura del proyecto antes de implementar las presentaciones en código vanilla JavaScript.
+La carpeta `capitulo-0/` contiene el outline Marp original (`outline.md` + `outline.pdf`) que sirvó como base para planificar la estructura antes de pasar a las presentaciones web en vanilla JavaScript.
 
 Esa presentación Marp documentó la arquitectura narrativa inicial y sirvó como referencia durante el desarrollo de las versiones web en `capitulo-1/` y `capitulo-2/`.
 
@@ -57,6 +67,9 @@ La carpeta `concepts/` contiene documentación detallada en formato Markdown que
 
 ```
 master-ai/
+├── capitulo-0/                # Capítulo 0: Outline Marp original
+│   ├── outline.md            # Código fuente Marp
+│   └── outline.pdf           # Export PDF
 ├── capitulo-1/                # Capítulo 1: Del chat al sistema cognitivo
 │   ├── index.html            # Presentación web (capítulo 1)
 │   ├── app.js                # Lógica de la presentación
